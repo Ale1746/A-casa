@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    <title>O Desafio</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <p>Durante uma reunião de amigos, alguém desafia o grupo a entrar na casa da colina, onde muitos afirmam ter
+                visto aparições. Decididos, vocês entram à força.</p>
+
+            <button class="btn-proximo" data-proximo="1">Entrar pela porta da frente</button>
+            <button class="btn-proximo" data-proximo="2">Entrar pela porta dos fundos</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="img/Casa.jpg" alt="Casa assombrada">
+            <p>Ao entrar, um vento gelado sopra e a porta se fecha com um estrondo. O salão está coberto de teias de
+                aranha e sombras se movem.</p>
+            <button class="btn-proximo" data-proximo="3">Explorar o quarto à esquerda</button>
+            <button class="btn-proximo" data-proximo="4">Seguir para a escada</button>
+        </div>
+
+
+        <div class="passo" id="passo-2">
+            <p>A porta dos fundos varia, revelando um quintal coberto de ervas. Ao olhar ao redor, uma sensação de que
+                estão sendo observadas abertas o coração</p>
+            <button class="btn-proximo" data-proximo="5">Investigar um galpão</button>
+            <button class="btn-proximo" data-proximo="6">Entrar pela porta principal</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>Dentro do quarto, um diário empoeirado localizado em uma mesa. As páginas estão repletas de histórias de
+                desaparecimentos."</p>
+            <button class="btn-proximo" data-proximo="7">Ler o diário</button>
+            <button class="btn-proximo" data-proximo="4">Sair do quarto rapidamente</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>A escada range sob seus pés e, conforme você sobe, um sussurro ecoa: 'Vão embora enquanto há tempo'.</p>
+            <button class="btn-proximo" data-proximo="8">Continuar subindo</button>
+            <button class="btn-proximo" data-proximo="9">Descer imediatamente</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Dentro do galpão, você encontra ferramentas antigas e um antigo caixão empoeirado. Algo parece se mover
+                dentro dele</p>
+            <button class="btn-proximo" data-proximo="10">Abrir o caixão</button>
+            <button class="btn-proximo" data-proximo="6">Sair correndo</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Ao entrar em casa, o ar se torna pesado e você ouve risadas distantes. A sensação de claustrofobia
+                aumenta.</p>
+            <button class="btn-proximo" data-proximo="11">Chamar os amigos</button>
+            <button class="btn-proximo" data-proximo="12">Explorar o corredor</button>
+        </div>
+
+
+        <div class="passo" id="passo-7">
+            <p>O diário conta a história de um ritual macabro realizado na casa. O último sacrifício foi feito há muitos
+                anos.</p>
+            <button class="btn-proximo" data-proximo="12">Investigar mais sobre o ritual</button>
+            <button class="btn-proximo" data-proximo="4">Deixar o quarto</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>No andar de cima, as risadas ficam mais altas e você se depara com uma porta entreaberta. Algo chama sua
+                atenção do outro lado</p>
+            <button class="btn-proximo" data-proximo="10">Abrir a porta lentamente</button>
+            <button class="btn-proximo" data-proximo="9">Voltar para baixo</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Você desce correndo, mas a casa parece estar mudando. As paredes se fecham, e a saída parece distante.
+            </p>
+            <button class="btn-proximo" data-proximo="12">Tentar forçar a porta</button>
+            <button class="btn-proximo" data-proximo="12">Encontrar outra janela</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Ao abrir o caixão, um grito ecoa. Dentro, há um espelho que reflete uma versão distorcida de você.</p>
+            <button class="btn-proximo" data-proximo="11">Olhar fixamente para o espelho</button>
+            <button class="btn-proximo" data-proximo="12">Fechar o caixão e fugir</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <p>O espelho começa a brilhar, e a versão distorcida diz: 'Agora você é parte de nós.' Você se sente sendo
+                puxado para dentro.</p>
+            <button class="btn-proximo" data-proximo="12">Ceder ao chamado</button>
+            <button class="btn-proximo" data-proximo="12">Lutar para sair</button>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Você tenta escapar, mas as risadas se fazem gritos. A casa consome você e seus amigos, e você percebe: 'Agora vocês pertencem a ela'</p>
+            <button class="btn-proximo" data-proximo="13">A história termina aqui.</button>
+        </div>
+
+        <div class="passo" id="passo-13">
+            <img src="img/Presos.jpg" alt="imagem presos na casa">
+            <p>Esse é o fim.</p>
+        </div>
+
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
